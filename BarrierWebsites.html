@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Nevermind</title>
+        <link rel="stylesheet" type="text/css" href="Extension.css">
+        <link rel="stylesheet" type = "text/css" href="BarrierWebsites.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            .divboxes{
+                width: 740px;
+            }
+        </style>
+
+
+    </head>
+    <body>
+
+            <script>
+              $(window).scroll(function() {
+                  if ($(this).scrollTop() > 100) {
+                      $('#lists_section').css({'height':'100vh', 'position':'fixed', 'top':'0'});
+                      $('#header').css({'top':'100vh'});
+                  } else {
+                      $('#lists_section').css({'height':'100vh', 'position':'relative', 'top':'0'});
+                      $('#header').css({'top':'0'});
+                  }
+              });
+            </script>
+          
+
+        <header id="header" class="scroll(function())">
+            <div id="logo">
+                <img src="Logo.png">
+                <h3 id="never">Nevermind</h3>
+            </div>
+        </header>
+        <div class="container" style="position: absolute;max-width: 100%; width: 100%; height: 95%;">
+            <div class="row" style="height: 100%;">
+                <div class="col-sm-4" style="width: 20%; padding: 0;">
+                    <section id="lists_section" >
+                        <ul id="lists">
+                            <li style="padding: 8px;"><a href="#"><img src="learning.png" class="listsicons"><span style="position: relative; top: 1px;">Learning</span></a></li>
+                            <li style="color: blueviolet; padding: 8px;"><a href="#"><img src="barrier.png" class="listsicons"><span style="position: relative; top: 1px;">Barrier websites</span></a></li>
+                            <li style="padding: 8px;"><a href="#"><img src="settings.png" class="listsicons"><span style="position: relative; top: 1px;">Settings</span></a></li>
+                        </ul>
+                    </section>
+                
+                </div>
+                <div class="col-sm-4" style="width: 60%; left: 140px;">
+                    <div style="top: 3%; position: inherit;">
+                        <div  class="divaddwebsite" style="right: 167px; display: grid;">
+                            <h2 style="font-weight: 500; margin-bottom: 0;">Barrier websites</h2>
+                            <h4 style="font-size: 18px; color: #828282; margin-bottom: 24px;">On opening these websites you will get a question</h4>
+                        </div>
+                            
+                            <div style="justify-content: center; display: flex;">
+                                <form class="example" action="#" style="margin:auto; display: flex;">
+                                    <input type="text" placeholder="Add web address (eg: youtube.com)" name="search2" style="width: 595px;">
+                                    <button type="submit" id="searchbutton"><img src="plus.png"> Add Item</button>
+                                  </form>
+                            </div>
+                           <div  class="divaddwebsite" style="right: 280px; display: grid;">
+                            <h4 class="addwebsite" style="margin-top: 20px; margin-bottom: 0;">Barriered websites</h4>
+                           </div>
+                            
+                            <div style="justify-content: center; display: flex;">
+                                <section style="position: relative; ">
+                                    <div class="divboxes">
+                                        <span class="websites"><img src="youtube.png" style="margin-right: 20px;">Youtube.com</span>
+                                        <div class="w3-padding w3-xlarge">
+                                            <i class="material-icons">delete</i>
+                                        </div>
+                                    </div>
+                                    <div class="divboxes">
+                                        <span class="websites"><img src="facebook.png" style="margin-right: 20px;">Facebook.com</span>
+                                        <div class="w3-padding w3-xlarge">
+                                            <i class="material-icons">delete</i>
+                                        </div>
+                                    </div>
+                                    <div class="divboxes">
+                                        <span class="websites"><img src="instagram.png" style="margin-right: 20px;">Instagram.com</span>
+                                        <div class="w3-padding w3-xlarge">
+                                            <i class="material-icons">delete</i>
+                                        </div>
+                                    </div>
+                                    <div class="divboxes">
+                                        <span class="websites"><img src="twitter.png" style="margin-right: 20px;">Twitter.com</span>
+                                        <div class="w3-padding w3-xlarge">
+                                            <i class="material-icons">delete</i>
+                                        </div>
+                                    </div>
+                                    <div class="divboxes">
+                                        <span class="websites"><img src="reddit.png" style="margin-right: 20px;">Reddit.com</span>
+                                        <div class="w3-padding w3-xlarge">
+                                            <i class="material-icons">delete</i>
+                                        </div>
+                                    </div>
+                                   
+
+            
+                                </section>
+                            </div>
+                    </div>   
+                </div>   
+                <div class="col-sm-4" style="width: 20%;"></div>          
+            </div>
+        </div>
+    </body>
+</html>

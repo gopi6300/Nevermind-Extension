@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'montserrat';
+  }
+#learning{
+    width: 112px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    color: #000000;
+    
+}
+#left_icon{
+    font-weight: bolder;
+    font-size: x-large;
+}
+#juststarted{ 
+    padding-left: 25px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #404040;
+    font-family: 'Work Sans';
+    
+}
+#buttons{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 30px;
+}
+.meanings{
+    margin: 10px 20px;
+    padding: 10px 20px;  
+    background: #B1ECFF;
+    border-radius: 12px;
+    border: 0;
+    font-weight: 500;
+}
